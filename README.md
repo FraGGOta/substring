@@ -1,6 +1,6 @@
-# substring
+### Substring
 
-Full Text Search<br>
+## Full Text Search <br>
 
 + Rabin–Karp algorithm
 + Boyer–Moore algorithm
@@ -8,7 +8,7 @@ Full Text Search<br>
 
 How to run a project:<br>
 
-> make dir
-> make
+- make dir 
+- make
 
-./bin/projcet search_word ./res/text.txt <br>
+> ./bin/projcet search_word ./res/text.txt <br>
