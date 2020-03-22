@@ -1,4 +1,4 @@
-### Substring
+# Substring
 
 ## Full Text Search <br>
 
@@ -7,9 +7,9 @@
 3. Knuth–Morris–Pratt algorithm
 
 ---
-# How to run a project:<br>
+### How to run a project:<br>
 
->> make dir 
->> make
+make dir<br>
+make<br>
 
-> ./bin/projcet search_word ./res/text.txt <br>
+> ./bin/projcet search_word ./res/example.txt <br>
