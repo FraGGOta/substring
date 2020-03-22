@@ -8,7 +8,7 @@ char *sample;
 int main(int argc, char *argv[])
 {
 	int choice;
-	clock_t start, end;
+	clock_t start, end; 
 	sample = argv[1];
 
 	if (argc == 3) 

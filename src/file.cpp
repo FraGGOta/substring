@@ -9,7 +9,7 @@ char *file_to_string(FILE *file)
 {
     unsigned int i;
     char *string = (char*)malloc(1 * sizeof(char));
-
+ 
     for (i = 0; fscanf(file, "%c", &string[i]) != EOF; ++i) {
         string = (char*)realloc(string, (i + 2) * sizeof(char));
     }

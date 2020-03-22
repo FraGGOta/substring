@@ -25,7 +25,7 @@ vector<unsigned int> *RK_search(char* text, char* sample)
 
     unsigned int text_length = strlen(text);
     unsigned int sample_length = strlen(sample);
-
+ 
     if (sample_length > text_length) {
         return result;
     }

@@ -10,5 +10,5 @@
 
 using namespace std;
 
-char *file_to_string(FILE *file);
+char *file_to_string(FILE *file); 
 void file_print(char *text, vector<unsigned int> *result);

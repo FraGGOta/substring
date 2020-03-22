@@ -22,7 +22,7 @@ vector<unsigned int> *KMP_search(char *text, char *sample)
         
 		if(sample[j] == sample[i])
             j++;
-            
+             
 		prefix[i] = j;
     }
 	
